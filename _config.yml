@@ -1,4 +1,10 @@
 theme: jekyll-theme-cayman
 title: Benjamin Wilson
-description: Graduate Student & Researcher | Power Systems Stability, Control, and Optimization
-show_downloads: false
+description: Graduate Student & Researcher | Power Systems Stability
+
+# Add this to create a navigation bar if the theme supports it
+nav:
+  - title: Home
+    url: /
+  - title: Publications
+    url: /publications.html
