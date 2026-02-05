@@ -1,8 +1,8 @@
-# Preventing automatic generator tags
-exclude: [vendor]
-markdown: kramdown
-kramdown:
-  syntax_highlighter: rouge
+title: Benjamin Egyin Wilson
+description: Power Systems Researcher | Stability & Optimization
+theme: jekyll-theme-cayman # Or your preferred theme
+remote_theme: jekyll/jekyll-theme-cayman
 
-# Custom site title for the browser tab
-title: Benjamin Wilson | Power Systems Researcher
+# This tells Jekyll where to find your custom CSS
+sass:
+  style: :compressed
