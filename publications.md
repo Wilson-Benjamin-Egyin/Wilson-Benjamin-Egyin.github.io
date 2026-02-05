@@ -1,23 +1,15 @@
 # Research & Publications
 
-A selection of peer-reviewed papers and technical research focused on power system stability and optimization.
+### 📄 Peer-Reviewed Journal Articles
 
----
+**1. Voltage Surge Estimation in Inverter-Cable-High-Impedance Load System**
+*Journal of Power, Energy, and Control (2025)* **Abstract:** This paper derives analytical expressions to estimate peak terminal voltage surges. Results show surges can reach 200% of the DC link value when rise time is less than 3x propagation delay.
+[Download PDF](assets/Pelican-Optimization-Algorithm(POA)-based Method for Solving the Optimal Capacitor Integration (OCI) Problem.pdf)
 
-### Featured Journal Articles
+**2. Pelican Optimization Algorithm (POA)-based Method for Solving the Optimal Capacitor Integration (OCI) Problem**
+*Andalasian International Journal of Applied Sciences, Engineering and Technology (2025)* **Abstract:** A hybrid LSF-POA approach that reduced active power losses by 68.08% on the IEEE 33-bus system.
+[Download PDF](assets/poa-oci-method.pdf)
 
-#### **Voltage Surge Estimation in Inverter-Cable-High-Impedance Load Systems**
-*Published in Vol. 14, No. 1 (2024)* **Abstract:** This research addresses the challenges of voltage surges in modern power networks, specifically looking at the interaction between inverters and high-impedance loads.  
-[**Read Paper / DOI Link**](#)
-
-#### **Sigmoid-Function-Based Adaptive Pelican Optimization Algorithm for Global Engineering**
-*International Journal of Research* **Abstract:** Introduction of a novel optimization algorithm designed for global engineering applications, improving convergence rates in complex power system planning.  
-[**Read Paper / DOI Link**](#)
-
----
-
-### Technical Reports & Projects
-
-* **Optimization of Multi-infeed HVDC Systems:** Analysis conducted during research tenure in South Korea.
-* **Inertia-low Grid Stability:** Investigating the impact of high renewable penetration on grid frequency.
-* **Micro-grid Design:** Practical implementation and modeling using OpenDSS and MATLAB.
+**3. Sigmoid-Function-Based Adaptive Pelican Optimization Algorithm for Global Optimization**
+*International Journal of Electrical Engineering and Applied Sciences (2024)* **Abstract:** Introducing the MPOA, which outperformed traditional PSO and GA on 95.65% of standard benchmark functions.
+[Download PDF](assets/adaptive-poa.pdf)
