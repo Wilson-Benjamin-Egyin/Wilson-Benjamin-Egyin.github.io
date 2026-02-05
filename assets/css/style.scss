@@ -1,0 +1,8 @@
+---
+---
+@import "{{ site.theme }}";
+
+// This removes the "Published with GitHub Pages" text from the footer
+.site-footer-credits, .site-footer-owner {
+    display: none !important;
+}
