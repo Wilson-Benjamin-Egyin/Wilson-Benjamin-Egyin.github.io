@@ -1,10 +1,4 @@
-# Use the GitHub Pages supported theme name directly
 theme: jekyll-theme-cayman
-
-title: Benjamin Wilson Portfolio
-[cite_start]description: Power Systems Research [cite: 1097, 1098]
+title: Benjamin Egyin Wilson
+description: Graduate Researcher | Power Systems Stability & Optimization
 url: "https://Wilson-Benjamin-Egyin.github.io"
-
-# This ensures Jekyll doesn't try to download external files it doesn't need
-plugins:
-  - jekyll-seo-tag
