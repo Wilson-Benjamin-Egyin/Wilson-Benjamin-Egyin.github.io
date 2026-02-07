@@ -2,7 +2,23 @@
 ---
 @import "{{ site.theme }}";
 
-// This removes the "Published with GitHub Pages" text from the footer
-.site-footer-credits, .site-footer-owner {
+/* Hides the default GitHub Pages footer and owner links */
+.site-footer, .site-footer-credits, .site-footer-owner {
     display: none !important;
+}
+
+/* Custom interactive styling for research cards */
+details {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    background-color: #f6f8fa;
+    cursor: pointer;
+}
+
+summary {
+    font-weight: 600;
+    color: #0366d6;
+    outline: none;
 }
