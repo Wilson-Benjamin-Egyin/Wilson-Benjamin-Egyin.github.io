@@ -1,8 +1,10 @@
-title: Benjamin Egyin Wilson
-description: Power Systems Researcher | Stability & Optimization
-theme: jekyll-theme-cayman # Or your preferred theme
-remote_theme: jekyll/jekyll-theme-cayman
+# Use the GitHub Pages supported theme name directly
+theme: jekyll-theme-cayman
 
-# This tells Jekyll where to find your custom CSS
-sass:
-  style: :compressed
+title: Benjamin Wilson Portfolio
+[cite_start]description: Power Systems Research [cite: 1097, 1098]
+url: "https://Wilson-Benjamin-Egyin.github.io"
+
+# This ensures Jekyll doesn't try to download external files it doesn't need
+plugins:
+  - jekyll-seo-tag
