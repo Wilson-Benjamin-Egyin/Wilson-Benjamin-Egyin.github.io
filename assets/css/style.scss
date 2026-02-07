@@ -2,23 +2,20 @@
 ---
 @import "{{ site.theme }}";
 
-/* Hides the default GitHub Pages footer and owner links */
+/* Remove GitHub Pages branding and footer owner credits */
 .site-footer, .site-footer-credits, .site-footer-owner {
     display: none !important;
 }
 
-/* Custom interactive styling for research cards */
+/* Custom Interactive Research Cards */
 details {
-    margin-bottom: 1rem;
-    padding: 1rem;
+    margin-bottom: 1.2rem;
+    padding: 1.2rem;
     border: 1px solid #e1e4e8;
-    border-radius: 6px;
-    background-color: #f6f8fa;
+    border-radius: 8px;
+    background-color: #f9f9f9;
     cursor: pointer;
+    transition: background 0.3s ease;
 }
-
-summary {
-    font-weight: 600;
-    color: #0366d6;
-    outline: none;
-}
+details:hover { background-color: #f1f1f1; }
+summary { font-weight: bold; color: #0366d6; outline: none; }
